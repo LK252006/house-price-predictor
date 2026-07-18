@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="static/styles.css" />
+  </head>
+  <body>
+    <form action="/predict" method="POST">
+      <h1>House Price prediction</h1>
+      <label>Area:</label>
+      <input type="number" name="area"/>
+      <br />
+      <label>Age of house:</label>
+      <input type="number" name="age"/>
+      <br />
+      <label>No of Bedrooms:</label>
+      <input type="number" name="bedrooms"/>
+      <button type="submit">Submit</button>
+      <h2>Predicted Price: $ {{predicted_price}}</h2>
+    </form>
+  </body>
+</html>

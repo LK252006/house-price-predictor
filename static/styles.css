@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(25, 27, 88);
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+p {
+    color: rgb(162, 161, 193);
+    font-size: 24px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.profile-section {
+    background-color: rgb(42, 42, 97);
+    text-align: center;
+    border-radius: 8px;
+    padding: 24px;
+    width: 50%;
+}
+
+button {
+    border: none;
+    background-color: rgb(81, 68, 225);
+    height: 40px;
+    width: 90%;
+    color: white;
+    border-radius: 8px;
+    margin-right: 4px;
+    border: 2px solid rgb(253, 255, 255);
+    margin-top: 5px;
+    margin-left: 4px;
+}
+
+button:hover {
+    background-color: rgb(29, 21, 113);
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+input {
+    width: 90%;
+    height: 28px;
+}
+
+form {
+    background-color: rgb(86, 86, 218);
+    padding: 18px;
+    border-radius: 16px;
+}
